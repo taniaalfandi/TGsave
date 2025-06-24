@@ -11,31 +11,31 @@
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
-      "value": ""
+      "value": "8183554389:AAGa9fYOziWl-B9abHqVXYD20WOjj0x0WoA"
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "1250450587"
+      "value": "6767172487"
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
-      "value": ""
+      "value": "28753484"
     },
     "DATABASE_URL": {
       "description": "Paste your mongo db url",
-      "value": "url"
+      "value": "mongodb+srv://upinputra30:RoOsNOLn8kDv8Vv8@upinputra.lzwpkfr.mongodb.net/?retryWrites=true&w=majority&appName=upinputra"
     },
     "DATABASE_NAME":{
       "description": "Enter your DATABASE_NAME ",
-      "value": "filesharexbot"
+      "value": "upinputra30"
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
-      "value": ""
+      "value": "3e4572a3b4e356e859d39d6216b47904"
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": "-100"
+      "value": "-1002568681851"
     },
     "FORCE_SUB_CHANNEL":{
       "description": "id of the channel or group, if you want enable force sub feature else put 0",
@@ -55,7 +55,7 @@
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
-      "value": "",
+      "value": "6767172487",
       "required": false
     },
     "PROTECT_CONTENT": {
@@ -65,7 +65,7 @@
     },
     "AUTO_DELETE_TIME": {
       "description": "Set the time in seconds for the automatic deletion of the file. Default is 0, meaning auto-deletion is disabled unless specified.",
-      "value": "0"
+      "value": "3600"
     },
     "AUTO_DELETE_MSG": {
       "description": "The custom message shown to the user before the file is automatically deleted. You can include a countdown with {time}.",
